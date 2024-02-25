@@ -90,9 +90,9 @@ const contactConfig = {
     description: "Shoot me an email anytime, and if you call and have nothing else to talk about, ask me about why I got rid of my couch. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: process.env.YOUR_SERVICE_ID,
-    YOUR_TEMPLATE_ID: process.env.YOUR_TEMPLATE_ID,
-    YOUR_USER_ID: process.env.YOUR_USER_ID,
+    YOUR_SERVICE_ID: process.env.REACT_APP_SERVICE_ID,
+    YOUR_TEMPLATE_ID: process.env.REACT_APP_TEMPLATE_ID,
+    YOUR_USER_ID: process.env.REACT_APP_USER_ID,
 };
 
 const socialprofils = {
