@@ -31,7 +31,16 @@ export const About = () => {
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
-              <p>{dataabout.aboutme}</p>
+              <p>Most people call me Ziggy, but you can call me Siegfried if you like opera and dressing up in suits and ties,
+              or just want to be extra endearing.
+              <br/>
+              
+              <br/>
+              Lightning round:
+              <br/> math geek, linux nerd, crunchy outdoorsy vegan hiker, runner, calisthenics enthusiast, singer,
+              moved to Europe but hardly travels, enjoys complaining about North German weather
+              
+              </p>
             </div>
           </Col>
         </Row>
@@ -79,7 +88,7 @@ export const About = () => {
             })}
           </Col>
         </Row>
-        <Row className="sec_sp">
+        {/*<Row className="sec_sp">
           <Col lang="5">
             <h3 className="color_sec py-4">services</h3>
           </Col>
@@ -93,7 +102,7 @@ export const About = () => {
               );
             })}
           </Col>
-        </Row>
+          </Row>*/}
       </Container>
     </HelmetProvider>
   );
