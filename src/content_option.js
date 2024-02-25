@@ -62,6 +62,10 @@ const skills = [{
         value: 75,
     },
     {
+        name: "Linux and bash-fu",
+        value: 70,
+    },
+    {
         name: "Azure Provisioning",
         value: 60,
     },
