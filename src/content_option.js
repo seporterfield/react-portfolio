@@ -91,7 +91,7 @@ const dataportfolio = [{
         link: "https://github.com/seporterfield/tony",
     },
     {
-        img: "https://sporterfield.sirv.com/Images/sitebackground.png",
+        img: "https://sporterfield.sirv.com/Images/sitebackground-small.png",
         description: "This website. Shh, it's a fork!",
         link: "https://github.com/seporterfield/react-portfolio",
     },
