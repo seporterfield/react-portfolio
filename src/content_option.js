@@ -78,9 +78,23 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://sporterfield.sirv.com/Images/kiwilabs.png",
+        description: "Rebutify, for your arguments.",
+        link: "https://docs.google.com/document/d/1SwIeJUBAf3Hvuvb87-zA1xUizNyRcEk0AHuJr1J6Rqs/",
+    },{
+        img: "https://sporterfield.sirv.com/Images/tony.png",
+        description: "Discord bots with a personality!",
+        link: "https://github.com/seporterfield/tony",
+    },
+    {
+        img: "https://sporterfield.sirv.com/Images/sitebackground.png",
+        description: "This website. Shh, it's a fork!",
+        link: "https://github.com/seporterfield/react-portfolio",
+    },
+    {
+        img: "https://sporterfield.sirv.com/Images/weserstadion.jpg",
+        description: "Ran a race, made a stats dashboard",
+        link: "https://github.com/seporterfield/b2run",
     },
 ];
 
