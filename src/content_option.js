@@ -9,7 +9,7 @@ const introdata = {
     animated: {
         first: "I love DevOps and programming",
         second: "I use cloud technology to enable bankers at Sparkasse Bremen",
-        third: "I created Rebutify to help social justice advocates make their case",
+        third: "I'm creating Rebutify to help social justice advocates make their case",
     },
     description: "Check that out!",
     your_img_url: "https://sporterfield.sirv.com/Images/sitebackground.png",
