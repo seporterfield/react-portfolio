@@ -7,8 +7,8 @@ const meta = {
 const introdata = {
     title: "I’m Siegfried Porterfield",
     animated: {
-        first: "I love DevOps and programming",
-        second: "I use cloud technology to enable bankers at Sparkasse Bremen",
+        first: "I love DevOps, programming, and architecting",
+        second: "I use cloud technology to empower bankers at Sparkasse Bremen",
         third: "I'm creating Rebutify to help social justice advocates make their case",
         fourth: "I am probably cooking beans right now"
     },
