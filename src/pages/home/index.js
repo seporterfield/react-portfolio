@@ -56,6 +56,14 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
+                  <Link to="https://sporterfield.sirv.com/docs/sp_resume.pdf" className="text_2">
+                    <div id="button_p" className="ac_btn btn ">
+                      Download Resume
+                      <div className="ring one"></div>
+                      <div className="ring two"></div>
+                      <div className="ring three"></div>
+                    </div>
+                  </Link>
                   <Link to="/contact">
                     <div id="button_h" className="ac_btn btn">
                       Contact Me
