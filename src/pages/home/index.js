@@ -56,13 +56,15 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
-                  <Link to="https://sporterfield.sirv.com/docs/sp_resume.pdf" className="text_2">
+                  <Link target="_blank" className="text_2">
+                    <a href="https://sporterfield.sirv.com/docs/sp_resume.pdf">
                     <div id="button_p" className="ac_btn btn ">
                       Resume
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
                     </div>
+                    </a>
                   </Link>
                   <Link to="/contact">
                     <div id="button_h" className="ac_btn btn">
