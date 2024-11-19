@@ -35,6 +35,7 @@ export const Home = () => {
                       autoStart: true,
                       loop: true,
                       deleteSpeed: 10,
+                      delay: 20
                     }}
                   />
                 </h1>
@@ -65,14 +66,6 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                     </a>
-                  </Link>
-                  <Link to="/contact">
-                    <div id="button_h" className="ac_btn btn">
-                      Contact Me
-                      <div className="ring one"></div>
-                      <div className="ring two"></div>
-                      <div className="ring three"></div>
-                    </div>
                   </Link>
                 </div>
               </div>

@@ -6,7 +6,6 @@ import {
   dataabout,
   meta,
   worktimeline,
-  skills,
   services,
 } from "../../content_option";
 
@@ -38,7 +37,7 @@ export const About = () => {
               <br/>
               Lightning round:
               <br/> math geek, linux nerd, crunchy outdoorsy vegan hiker, runner, calisthenics enthusiast, singer,
-              moved to Europe but hardly travels, enjoys complaining about North German weather
+              moved to Europe but hardly travels, frequents hackerspaces, will help you network, will yap with you about your side projects for hours
               
               </p>
             </div>
@@ -46,7 +45,7 @@ export const About = () => {
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Work Timline</h3>
+            <h3 className="color_sec py-4">Timeline</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">
@@ -69,7 +68,8 @@ export const About = () => {
             <h3 className="color_sec py-4">Skills</h3>
           </Col>
           <Col lg="7">
-            {skills.map((data, i) => {
+            {"git, docker, azure, azure devops pipelines, bash, bicep, terraform, django, fastapi, pandas, react, next.js, tailwind, github actions, bubbletea, wails, nginx, postman, pre-commit, vim, k8s, AWS, oracle cloud, snyk, wiremock"
+            /*skills.map((data, i) => {
               return (
                 <div key={i}>
                   <h3 className="progress-title">{data.name}</h3>
@@ -85,7 +85,7 @@ export const About = () => {
                   </div>
                 </div>
               );
-            })}
+            })*/}
           </Col>
         </Row>
         {/*<Row className="sec_sp">
